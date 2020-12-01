@@ -8,25 +8,41 @@
   </head>
 
   <body>
-    <div id="root">
-        <!--Texto de bienvenida-->
-        <h1>Te damos la bienvenida al</h1> 
 
-        <h2>(DES)CIFRADOR CAESAR</h2>
+    <h1>Te damos la bienvenida al</h1>
 
-    <script src="index.js" type="module"></script>
+    <h2>(DES)CIFRADOR CAESAR</h2>
 
     <form>
-      <p2>Text</p2>
-      <textarea name='plaintext'></textarea>
-      <p2>Offset</p2>
-      <input type='number' name='offset' min='1' max='26'>
-    <input type='submit' value='Code'>
+      <article id="insertMessage">Inserta tu mensaje. Por favor, utiliza sólo mayúsculas, sin la letra Ñ</article>
+      </br>
+      <textarea id="originalMessage"></textarea>
+      <p>¿Cuántos caracteres quieres desplazar?</p>
+      <p>Inserta un número del 1 al 26</p>
+      <input id="offsetNumber"  type='number' min='1' max='26'>
+      <br />
+      <input type='button' value='Cifrar' id="botonCifrar">
+      <br />
+      <textarea id="newMessage"></textarea>
     </form>
-    <p3>New message</p3>
-    <div id='output'></div>
 
-    <script src='cipher.js'></script>    
+    <script src='cipher.js'></script>
 
   </body>
 </html>
+
+
+<!--<div id="root">
+
+
+<script src="index.js" type="module"></script>
+
+<form>
+  <p2>Text</p2>
+  <textarea name='plaintext'></textarea>
+  <p2>Offset</p2>
+  <input type='number' name='offset' min='1' max='26'>
+<input type='submit' value='Code'>
+</form>
+<p3>New message</p3>
+<div id='output'></div>-->
