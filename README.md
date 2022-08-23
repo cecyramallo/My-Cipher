@@ -1,3 +1,3 @@
-# Prueba_1
-Sólo para ir conociendo...
-¿Qué tal?
+# My Cipher
+
+To practice HTML, CSS and vanilla JavaScript, replicating my first Laboratoria project.
